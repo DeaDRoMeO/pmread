@@ -1,0 +1,43 @@
+
+blockquote {
+	background-color: #EBEADD;
+	border-color: #DBDBCE;
+	background:  none 6px 8px no-repeat;
+	border: 1px solid;
+	font-size: 0.95em;
+	margin: 0.5em 1px 0 25px;
+	padding: 5px;
+}
+
+.codebox {
+background-color: #FFFFFF;
+border-color: #C9D2D8;
+padding: 3px;
+border: 1px solid transparent;
+font-size: 1em;
+}
+.codebox code {
+overflow: auto;
+display: block;
+height: auto;
+max-height: 200px;
+white-space: normal;
+padding-top: 5px;
+font: 0.9em Monaco, "Andale Mono","Courier New", Courier, mono;
+line-height: 1.3em;
+margin: 2px 0;
+}
+
+.codebox p {
+text-transform: uppercase;
+border-bottom: 1px solid transparent;
+border-bottom-color: #CCCCCC;
+margin-bottom: 3px;
+font-size: 0.8em !important;
+font-weight: bold;
+display: block;
+font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+font-size: 1.2em;
+margin-bottom: 1em;
+line-height: 1.4em;
+}

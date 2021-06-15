@@ -1,0 +1,25 @@
+{
+	"name": "deadromeo/pmread",
+	"type": "phpbb-extension",
+	"description": "Расширение позволит вам просматривать личные сообщения пользователей в админпанели форума",
+	"homepage": "http://hello-vitebsk.ru/viewtopic.php?f=208&t=2760",
+	"version": "1.0.0",
+	"time": "2020-12-04",
+	"license": "GPL-2.0",
+		"authors": [{
+			"name": "DeaDRoMeO",
+			"homepage": "http://hello-vitebsk.ru",
+			"role": "Developer"
+		}],
+	"require": {
+		"php": ">=5.3.3",
+		"phpbb/phpbb": ">=3.3.0"
+	},
+	"extra": {
+		"display-name": "PMRead",
+		"soft-require": {
+         "phpbb/phpbb": ">=3.3.0"
+		 }
+	}
+}
+

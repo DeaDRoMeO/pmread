@@ -1,0 +1,5 @@
+services:
+    deadromeo.pmread.listener:
+        class: deadromeo\pmread\event\listener
+        tags:
+            - { name: event.listener }
